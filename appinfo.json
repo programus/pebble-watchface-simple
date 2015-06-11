@@ -1,0 +1,34 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "programus@gmail.com",
+    "longName": "Simple watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/ExSmall.ttf",
+                "name": "FONT_EX_SMALL_3x5",
+                "type": "font"
+            },
+            {
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_48",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Simple",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "529cbaaa-6050-4531-a1a9-8fe12cf97373",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
