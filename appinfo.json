@@ -1,7 +1,10 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "programus@gmail.com",
     "longName": "Simple watchface",
@@ -9,8 +12,19 @@
     "resources": {
         "media": [
             {
+                "file": "images/background.png",
+                "menuIcon": true,
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
                 "file": "fonts/ExSmall.ttf",
-                "name": "FONT_EX_SMALL_3x5",
+                "name": "FONT_EX_SMALL_5",
+                "type": "font"
+            },
+            {
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_20",
                 "type": "font"
             },
             {
