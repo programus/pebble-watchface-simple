@@ -33,3 +33,4 @@
 
 # something
 .lock-waf_darwin_build
+/build
