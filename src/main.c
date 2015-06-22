@@ -143,6 +143,7 @@ static void main_window_unload(Window* window) {
   text_layer_destroy(s_time_layer);
   
   // destroy background layer
+  gbitmap_destroy(s_background_bitmap);
   bitmap_layer_destroy(s_background_layer);
 }
 
